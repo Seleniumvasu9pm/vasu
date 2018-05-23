@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
+  <test name="Vasu(failed)">
+    <classes>
+      <class name="com.testng.BeforeTestAfterTest">
+        <methods>
+          <include name="appLaunch"/>
+          <include name="appClose"/>
+        </methods>
+      </class> <!-- com.testng.BeforeTestAfterTest -->
+      <class name="com.testng.AddEmpTest">
+        <methods>
+          <include name="empAdd"/>
+        </methods>
+      </class> <!-- com.testng.AddEmpTest -->
+      <class name="com.testng.MultipleTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.testng.MultipleTest -->
+    </classes>
+  </test> <!-- Vasu(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

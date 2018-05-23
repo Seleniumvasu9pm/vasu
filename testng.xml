@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+  <test  name="Vasu">
+    <classes>
+      <class name="com.testng.AddEmpTest"/>
+      <class name="com.testng.AdminLoginTest"/>
+      <class name="com.testng.FirstTestNG"/>
+      <class name="com.testng.BeforeTestAfterTest"/>
+      <class name="com.testng.MultipleTest"/>
+      
+    </classes>
+  </test> 
+</suite>
